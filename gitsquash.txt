@@ -1,0 +1,8 @@
+git rebase -i HEAD~n
+
+squash commits in interactive mode
+
+
+git commit --amend -m "temp-amend"
+
+git push origin branch-name force-with-lease.

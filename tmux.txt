@@ -1,0 +1,31 @@
+ctr b , % (side pane)
+ctr b, " (bottom pane)
+ctr b, ->(navigation)
+ctr b, ","(rename)
+ctr b, d(detach)
+ctr b, window number(switch windows)
+
+tmux ls
+tmux attach -t name (connect to session)
+tmux rename-session -t name(rename session)
+
+tmux kill-session -t name
+tmux new -s name
+
+crtl b, ! turn pane into window
+
+set -g @plugin 'tmux-plugins/tmux-yank'
+set -g @plugin 'tmux-plugins/tmux-yank'
+
+ssh user@host -t "tmux new-session -s user || tmux attach-session -t user"
+
+
+
+
+
+
+
+
+
+
+

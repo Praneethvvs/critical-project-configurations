@@ -1,0 +1,22 @@
+az acr create --resource-group Kubernetes-ResourceGroup --name gptappacr --sku Basic
+
+az acr login --name 
+
+
+
+docker run -d -p 4500:4500 -p 4501:4501 
+
+az aks update -n KubernetesCluster-TaxGpt  -g Kubernetes-ResourceGroup --attach-acr gptappacr
+
+
+docker tag
+
+docker push 
+
+
+
+
+
+
+
+
